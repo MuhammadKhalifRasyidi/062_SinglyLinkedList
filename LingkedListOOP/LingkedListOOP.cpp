@@ -194,3 +194,17 @@ int main()
 				}
 			}
 			break;
+
+		case '5':
+		{
+			exit(0);
+		}
+		break;
+	defaul:
+		{
+			cout << "Pilihan salah !." << endl;
+		}
+		break;
+		}
+	}
+}
